@@ -66,30 +66,44 @@
 ### Giao diện Server
 
 <p align="center">
-  <img src="docs/clientketserver.png" alt="Server UI" width="800" height="800"/>
+  <img src="docs/giaodienser.png" alt="Server UI" width="800" height="800"/>
 </p>
 <p align="center"><i>Hình ảnh 1</i></p>
 
 ### Giao diện đăng nhập Client
 
 <p align="center">
-  <img src="docs/loginub.png" alt="Server UI" width="800" height="800"/>
+  <img src="docs/đang nhâp.png" alt="Server UI" width="800" height="800"/>
 </p>
 <p align="center"><i>Hình ảnh 2</i></p>
+
+### Giao diện đăng kí Client
+
+<p align="center">
+  <img src="docs/đăng kí.png" alt="Server UI" width="800" height="800"/>
+</p>
+<p align="center"><i>Hình ảnh 3</i></p>
 
 ### Giao diện điều khiển Client
 
 <p align="center">
-  <img src="docs/đieukien.png" alt="Server UI" width="800" height="800"/>
+  <img src="docs/giao diện người dùng.png" alt="Server UI" width="800" height="800"/>
 </p>
-<p align="center"><i>Hình ảnh 3</i></p>
+<p align="center"><i>Hình ảnh 4</i></p>
+
+### Giao diện giao diện chuyển tiền Client
+
+<p align="center">
+  <img src="docs/giaodienjchuyeenrtien.png" alt="Server UI" width="800" height="800"/>
+</p>
+<p align="center"><i>Hình ảnh 5</i></p>
 
 ### Giao diện Quản trị
 
 <p align="center">
-  <img src="docs/quantri.png" alt="Server UI" width="800" height="800"/>
+  <img src="docs/giao diện admin.png" alt="Server UI" width="800" height="800"/>
 </p>
-<p align="center"><i>Hình ảnh 4</i></p>
+<p align="center"><i>Hình ảnh 6</i></p>
 
 ### Giao diện database
 
@@ -110,7 +124,7 @@ javac -version
 ```
 Đảm bảo cả hai lệnh đều hiển thị phiên bản Java 8 trở lên.
 Thiết lập cơ sở dữ liệu:
-Ứng dụng sử dụng cơ sở dữ liệu SQLite (data/bank.db). Đảm bảo thư mục data tồn tại trong thư mục gốc của dự án, nếu không, nó sẽ được tạo tự động.
+Ứng dụng sử dụng cơ sở dữ liệu SQLite (data/bank_system.db). Đảm bảo thư mục data tồn tại trong thư mục gốc của dự án, nếu không, nó sẽ được tạo tự động.
 
 #### Bước 2: Biên dịch mã nguồn
 1. Mở terminal và điều hướng đến thư mục chứa mã nguồn.
@@ -130,8 +144,8 @@ Khởi động Server:
 ```bash
 java server.BankServer
 ```
-- Server tạo cơ sở dữ liệu SQLite (data/bank.db)nếu chưa tồn tại. 
-- SKhởi tạo tài khoản quản trị mặc định (tên đăng nhập: admin, mật khẩu: admin).
+- Server tạo cơ sở dữ liệu SQLite (data/bank_system.db)nếu chưa tồn tại. 
+- SKhởi tạo tài khoản quản trị mặc định (tên đăng nhập: admin, mật khẩu: admin123).
 - Server lắng nghe trên cổng 12345. 
 - Log hiển thị các kết nối Client và hoạt động của server.
 
@@ -165,7 +179,7 @@ java clienta..BankClient
 Nếu có bất kỳ thắc mắc hoặc cần hỗ trợ, vui lòng liên hệ:
 
 - 👨‍🎓 Họ và tên: Lê Bá Hoan
-- 🏫 Khoa: Công nghệ thông tin - Đại học Đại Nam
+- 🏫 Khoa: Công nghệ thông tin - Trường đại học Đại Nam
 - 📧 Email: lebahoan1812@gmail.com
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
